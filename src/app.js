@@ -14,8 +14,8 @@ const cors = require("cors");
 const allowedOrigins = [
   "http://localhost:5173",
   "https://caption-generator-frontend-six.vercel.app",
-  "https://caption-generator-frontend-bd0h7tz70.vercel.app",
-  "https://caption-generator-frontend-pawan-kumar-pandeys-projects.vercel.app"
+  "https://caption-generator-frontend-l25vw8ow8.vercel.app",
+  "https://caption-generator-front-git-043085-pawan-kumar-pandeys-projects.vercel.app"
 ];
 
 app.use(cors({
