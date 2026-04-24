@@ -12,9 +12,11 @@ const cors = require("cors");
 // }));
 
 app.use(cors({
-  origin: "https://your-frontend.vercel.app",
+  origin: "https://caption-generator-frontend-six.vercel.app",
   credentials: true
 }))
+
+
 
 // THEN
 app.use(express.json());
